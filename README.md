@@ -40,17 +40,5 @@ Puedes usar cualquier herramienta de IA. En la entrevista de seguimiento modific
 
 Tiempo sugerido: 3 horas.
 
----
 
-## Cómo ejecutar esta solución
 
-```
-sf org login web --alias takehome --set-default
-sf project deploy start
-sf org assign permset --name Dev_Field_Access
-sf apex run test --test-level RunLocalTests --code-coverage --result-format human --wait 10
-```
-
-- `Dev_Field_Access` es solo para desarrollo (ver `ASSUMPTIONS.md`).
-- La API key del servicio de scoring es un valor de ejemplo (`REEMPLAZAR_EN_SETUP`) en el Custom Metadata `Score_Api_Config__mdt`, registro `Default`.
-- Documentos de la entrega: `DECISIONS.md`, `ASSUMPTIONS.md`, `AI_USAGE.md`.
