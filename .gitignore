@@ -1,0 +1,7 @@
+# Salesforce CLI / VS Code (datos locales de la sesión y de las orgs)
+.sf/
+.sfdx/
+.vscode/
+.idea/
+node_modules/
+*.log
